@@ -9,10 +9,18 @@
 
     <Button
         android:id="@+id/addButon"
-        android:layout_width="55dp"
+        android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_gravity="bottom|end"
-        android:text="+"
-        android:layout_marginRight ="20dp"
+        android:text="Друзья"
+        android:layout_marginRight="20dp"
         />
+
+    <Button
+        android:id="@+id/mainButton"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="180dp"
+        android:text="Сообщения" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
