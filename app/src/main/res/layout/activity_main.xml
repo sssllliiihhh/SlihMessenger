@@ -8,19 +8,23 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/addButon"
+        android:id="@+id/homePageButon"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
-        android:layout_gravity="bottom|end"
-        android:text="Друзья"
-        android:layout_marginRight="20dp"
-        />
+        android:layout_gravity="bottom|start"
+        android:layout_marginLeft="30dp"
+        app:icon="@drawable/home"
+        app:iconGravity="textEnd"
+        app:iconPadding="0dp" />
 
     <Button
-        android:id="@+id/mainButton"
+        android:id="@+id/mailButton"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
-        android:layout_gravity="bottom|end"
-        android:layout_marginRight="180dp"
-        android:text="Сообщения" />
+        android:layout_gravity="bottom|center"
+        android:layout_toEndOf="@id/homePageButon"
+        app:icon="@drawable/mail"
+        app:iconGravity="textEnd"
+        app:iconPadding="0dp"
+        />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

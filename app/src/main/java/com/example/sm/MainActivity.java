@@ -35,15 +35,15 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        Button button = findViewById(R.id.addButon);
+        Button button = findViewById(R.id.homePageButon);
         ViewGroup.LayoutParams layoutParams = button.getLayoutParams();
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                button.setText("Hello World!!");
-                layoutParams.width = ViewGroup.LayoutParams.WRAP_CONTENT;
-                button.setLayoutParams(layoutParams);
+//                button.setText("Hello World!!");
+//                layoutParams.width = ViewGroup.LayoutParams.WRAP_CONTENT;
+//                button.setLayoutParams(layoutParams);
             }
         });
     }
